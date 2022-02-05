@@ -7,7 +7,7 @@ import pandas as pd
 def seed_everything(seed=1234) -> None:
     random.seed(seed)
     os.environ["PYTHONHASHSEED"] = str(seed)
-    np.randoom.seed(seed)
+    np.random.seed(seed)
     # torch.manual_seed(seed)
     # torch.cuda.manual_seed(seed)
     # torch.backends.cudnn.deterministic = True

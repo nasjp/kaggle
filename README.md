@@ -28,3 +28,12 @@ kaggle
 └── working
     └── titanic.ipynb
 ```
+
+# dependencies
+
+- cmake
+- libomp
+
+```sh
+brew install cmake libomp
+```

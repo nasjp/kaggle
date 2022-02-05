@@ -11,4 +11,5 @@ source .venv/bin/activate
 kaggle competitions download -c $competition --force
 unzip -f $competition.zip -d input/$competition
 cp template.ipynb working/$competition.ipynb
+mkdir -p output/$competition
 rm $competition.zip

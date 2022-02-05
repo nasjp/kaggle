@@ -1,12 +1,22 @@
 # README
 
+# setup
+
 ```sh
 asdf install
 python -m pip install -r requirements.txt
 ```
 
+# init competition
+
 ```sh
-/kaggle
+./competition.bash titanic
+```
+
+# directory structure
+
+```sh
+kaggle
 ├── input
 │   └── titanic
 │       ├── gender_submission.csv
@@ -16,5 +26,5 @@ python -m pip install -r requirements.txt
 │   └── kaggle
 │       └── gcp.py
 └── working
-    └── __notebook_source__.ipynb
+    └── titanic.ipynb
 ```
